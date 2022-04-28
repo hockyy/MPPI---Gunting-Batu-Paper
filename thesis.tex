@@ -111,16 +111,19 @@
 \CAPinToC % All entries in ToC will be CAPITALIZED from here on
 \phantomsection %hack to make them clickable
 \singlespacing
+\addcontentsline{toc}{chapter}{\contentsname}
 \tableofcontents
 \onehalfspacing
 \clearpage
 \phantomsection %hack to make them clickable
 \singlespacing
+\addcontentsline{toc}{chapter}{\listfigurename}
 \listoffigures
 \onehalfspacing
 \clearpage
 \phantomsection %hack to make them clickable
 \singlespacing
+\addcontentsline{toc}{chapter}{\listtablename}
 \listoftables
 \onehalfspacing
 \clearpage
@@ -191,10 +194,6 @@
 \include{src/01-body/02-bab2}
 \clearchapter
 \include{src/01-body/03-bab3}
-% \clearchapter
-% \include{src/01-body/04-bab4}
-% \clearchapter
-% \include{src/01-body/05-bab5}
 \clearchapter
 \include{src/01-body/99-kesimpulan}
 \clearchapter
